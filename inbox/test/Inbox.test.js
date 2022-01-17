@@ -11,10 +11,10 @@ let changeMessage = "Bye";
 
 beforeEach(async () => {
   //
-  // Getting a list of all accounts
+  // Getting A List Of All Accounts Through Ganache
   accounts = await web3.eth.getAccounts();
 
-  // Using one of the accounts from the list to deploy
+  // Using One Of The Accounts From The List To Deploy
 
   inbox = await new web3.eth.Contract(JSON.parse(interface))
     .deploy({
