@@ -5,8 +5,8 @@ const { interface, bytecode } = require("./compile");
 //Connecting To Wallet On Rinkeby Network
 
 const provider = new HDWalletProvider(
-  "moral lock exit oppose peace quantum okay destroy spoon panda lottery lecture",
-  "https://rinkeby.infura.io/v3/4fe2daad368a4a34bae2f7bdbfa3bace"
+  "Your 12 Word Seed Phrase Here",
+  "Your Infura Rinkeby Api here"
 );
 const web3 = new Web3(provider);
 
